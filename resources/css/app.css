@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header{
+	@apply p-5 border-b shadow;
+}
+
+main{
+	@apply container mx-auto mt-10;
+}
+
+h2{
+	@apply text-4xl mb-4 text-center;
+}
+
+.container{
+	@apply bg-yellow-100 rounded-md m-auto p-3 w-7/12;
+}
+
+
+
+input[type='text' ], 
+input[type='password' ] {
+   @apply w-full rounded-md border-2 border-blue-200 m-auto;
+}
+
+.inputContainer{
+	@apply mb-4 w-10/12 m-auto;
+}
+
+.submit{
+	@apply m-auto mt-3 p-3 w-full cursor-pointer bg-orange-300 rounded-md;
+}
+
+.errorMessage{
+	@apply bg-red-500 text-white mt-2 rounded-md text-center;
+}
+
